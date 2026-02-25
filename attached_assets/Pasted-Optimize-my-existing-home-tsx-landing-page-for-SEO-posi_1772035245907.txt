@@ -1,0 +1,86 @@
+Optimize my existing home.tsx landing page for SEO, positioning, and lead generation.
+
+Context:
+This is for Belli, a boutique consultancy specialized in growth and ecommerce for medium-sized companies in Latin America.
+Do NOT change the visual design, branding, spacing system, typography, or color palette.
+Only improve structure, semantic HTML, SEO hierarchy, and conversion flow.
+
+Tasks:
+
+1) HERO SECTION
+- Replace the current H1 with:
+  “Consultoría estratégica especializada en crecimiento y ecommerce para empresas medianas en Latinoamérica”
+- Keep elegant serif styling.
+- Ensure responsive sizing using clamp().
+- Add a supporting paragraph below the H1 explaining:
+  We help expanding companies structure growth, optimize ecommerce, and professionalize commercial strategy with an executable and measurable approach.
+- Keep primary CTA: “AGENDAR SESIÓN ESTRATÉGICA →”
+- Add secondary CTA: “VER METODOLOGÍA”
+
+2) ADD A NEW SEO SECTION AFTER HERO
+Create a section titled (H2):
+“Empresas medianas que crecen… pero sin estructura”
+
+Add 2–3 paragraphs explaining:
+- Disorganized growth
+- Ecommerce without optimization
+- Reactive decisions
+- Operational pressure
+- Missed opportunities
+
+Make it natural Spanish optimized for SEO.
+
+3) SERVICES SECTION (H2)
+Title:
+“Consultoría estratégica enfocada en crecimiento ejecutable”
+
+Add 4 clear blocks:
+- Estrategia de crecimiento empresarial
+- Optimización de ecommerce
+- Business development estructurado
+- Acompañamiento estratégico
+
+Use proper H3 tags inside this section.
+
+4) METHODOLOGY SECTION (H2 with id="metodologia")
+Title:
+“Metodología de crecimiento estructurado”
+
+Create 4 numbered steps:
+1. Diagnóstico estratégico
+2. Diseño de roadmap ejecutable
+3. Implementación acompañada
+4. Medición y optimización continua
+
+Use semantic <section>, <ol>, <li>.
+
+5) LEADERSHIP SECTION (H2)
+Title:
+“Liderazgo con experiencia real en estrategia y ejecución”
+
+Mention:
+- 17+ years corporate experience
+- 10+ years leading ecommerce and business development
+- MBA ESCP Business School (London & Paris)
+- International perspective
+Keep tone authoritative and strategic.
+
+6) FINAL CTA SECTION (id="contacto")
+Title:
+“Agenda tu sesión estratégica”
+
+Short persuasive paragraph.
+Primary CTA button linking to Calendly placeholder:
+href="TU_CALENDLY_AQUI"
+
+7) SEO TECHNICAL IMPROVEMENTS
+- Ensure only ONE H1 exists on page.
+- Use proper H2 hierarchy.
+- Use semantic tags: <main>, <section>, <header>, <nav>.
+- Add alt attributes to images.
+- Improve internal anchor linking (#metodologia, #contacto).
+- Keep Lighthouse mobile performance above 90.
+
+Return the full updated home.tsx code.
+Do not remove existing layout components.
+Only enhance structure, content and SEO.
